@@ -1,7 +1,7 @@
 export default function Sidebar() {
   return (
     <aside className="sidebar">
-      <img className="avatar" src="/avatar.png" alt="陈鸿" />
+      <img className="avatar" src="https://img.alicdn.com/imgextra/i4/O1CN011D4H3IIuAAE18Ung_!!6000000000943-0-tps-560-800.jpg" alt="陈鸿" />
       <h1>陈鸿</h1>
       <p className="subtitle">前端开发工程师</p>
 
