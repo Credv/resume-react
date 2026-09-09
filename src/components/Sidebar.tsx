@@ -13,16 +13,20 @@ export default function Sidebar() {
       <div className="sidebar-section">
         <h3>联系方式</h3>
         <div className="contact-item">
-          <span className="contact-icon">📧</span>
-          <span>credv@example.com</span>
+          <span className="contact-icon">📱</span>
+          <span>13123332932</span>
         </div>
         <div className="contact-item">
-          <span className="contact-icon">📱</span>
-          <span>138-xxxx-xxxx</span>
+          <span className="contact-icon">📧</span>
+          <span>793927991@qq.com</span>
+        </div>
+        <div className="contact-item">
+          <span className="contact-icon">📍</span>
+          <span>杭州</span>
         </div>
         <div className="contact-item">
           <span className="contact-icon">💼</span>
-          <span>GitHub: Credv</span>
+          <span>5 年经验（2020.12 至今）</span>
         </div>
       </div>
 
@@ -45,6 +49,7 @@ export default function Sidebar() {
             <span className="skill-tag">Webpack</span>
             <span className="skill-tag">Vite</span>
             <span className="skill-tag">Monorepo</span>
+            <span className="skill-tag">pnpm</span>
           </div>
         </div>
 
@@ -53,12 +58,6 @@ export default function Sidebar() {
           <div className="skill-tags">
             <span className="skill-tag">JavaScript</span>
             <span className="skill-tag">TypeScript</span>
-          </div>
-        </div>
-
-        <div className="skill-group">
-          <div className="skill-group-title">服务端</div>
-          <div className="skill-tags">
             <span className="skill-tag">Node.js</span>
           </div>
         </div>
@@ -66,9 +65,10 @@ export default function Sidebar() {
         <div className="skill-group">
           <div className="skill-group-title">AI 工程化</div>
           <div className="skill-tags">
-            <span className="skill-tag">Harness Engineering</span>
-            <span className="skill-tag">AST 代码扫描</span>
-            <span className="skill-tag">AI Agent Workflow</span>
+            <span className="skill-tag">Harness</span>
+            <span className="skill-tag">AST 扫描</span>
+            <span className="skill-tag">Agent Workflow</span>
+            <span className="skill-tag">Prompt</span>
           </div>
         </div>
 
@@ -86,7 +86,7 @@ export default function Sidebar() {
       <div className="sidebar-section">
         <h3>教育背景</h3>
         <div className="edu-item">
-          <div className="school">闽江学院</div>
+          <div className="school">闽江大学</div>
           <div className="detail">本科 · 2017 — 2021</div>
         </div>
       </div>

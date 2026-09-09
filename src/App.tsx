@@ -124,7 +124,7 @@ const workExperience = [
 
 const evaluations = [
   { icon: '🎯', text: '5 年大厂项目经验，具备大型复杂项目的独立开发与 Owner 能力' },
-  { icon: '️', text: 'Monorepo 架构转型实战经验，善于治理多包工程、推动技术升级' },
+  { icon: '🏗️', text: 'Monorepo 架构转型实战经验，善于治理多包工程、推动技术升级' },
   { icon: '🤖', text: 'AI 工程化深入实践，将 AI 能力落地到真实研发工作流，提升团队效率' },
   { icon: '👨‍💻', text: '技术 Owner 意识，能够主导项目架构设计、任务拆分与进度管理' },
 ]
@@ -151,7 +151,7 @@ export default function App() {
       <main className="main">
         {/* 工作经历 */}
         <div className="section-title">
-          <div className="icon"></div>
+          <div className="icon">💼</div>
           工作经历
         </div>
         <div className="work-timeline">
