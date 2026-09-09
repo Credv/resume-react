@@ -203,7 +203,7 @@ export default function App() {
         </div>
 
         <div className="footer">
-          Last updated: September 2026 · Built with React + Vite + TypeScript
+          © 2026 陈鸿 · 前端开发工程师 · 联系方式：13123332932 | 793927991@qq.com
         </div>
       </main>
 
