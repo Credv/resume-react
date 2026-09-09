@@ -22,7 +22,7 @@ export default function Dashboard() {
             { name: 'TypeScript', max: 100 },
             { name: 'Monorepo', max: 100 },
             { name: 'AI 工程化', max: 100 },
-            { name: 'Node.js', max: 100 },
+            { name: '动画/3D', max: 100 },
             { name: '工程化', max: 100 },
           ],
           radius: '65%',
@@ -34,7 +34,7 @@ export default function Dashboard() {
         series: [{
           type: 'radar',
           data: [{
-            value: [92, 88, 90, 95, 75, 85],
+            value: [92, 88, 90, 95, 80, 85],
             name: '技能水平',
             areaStyle: { color: 'rgba(107,140,255,0.2)' },
             lineStyle: { color: accentColor, width: 2 },

@@ -73,11 +73,21 @@ export default function Sidebar() {
         </div>
 
         <div className="skill-group">
+          <div className="skill-group-title">可视化 & 动画</div>
+          <div className="skill-tags">
+            <span className="skill-tag">Three.js</span>
+            <span className="skill-tag">Motion</span>
+            <span className="skill-tag">ECharts</span>
+            <span className="skill-tag">雪碧图动画</span>
+          </div>
+        </div>
+
+        <div className="skill-group">
           <div className="skill-group-title">其他</div>
           <div className="skill-tags">
             <span className="skill-tag">埋点治理</span>
             <span className="skill-tag">浏览器插件</span>
-            <span className="skill-tag">ECharts 大屏</span>
+            <span className="skill-tag">Howler.js</span>
           </div>
         </div>
       </div>

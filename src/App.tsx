@@ -54,24 +54,30 @@ const projects = [
     valueTags: ['三层机制', 'AST 扫描', 'AI 工程化', 'Human-in-the-Loop'],
   },
   {
-    title: '招财猫 · 游戏化营销项目',
-    role: 'Harness 实践标杆',
-    desc: '半游戏化营销产品，用户可领养虚拟猫咪宠物，通过出行收集优惠券。作为 Harness Engineering 首个落地实践项目，全程在 AI Agent 辅助下完成开发。',
+    title: '招财猫 · 互动祈福 H5 应用',
+    role: '核心开发 & Owner',
+    desc: '基于 Ice.js v3 + React 18 的半游戏化营销 H5 应用，用户可领养虚拟猫咪、许愿祈福、出行探险、收集签文日记。全程在 Harness Engineering 辅助下完成开发。',
     sections: [
       {
-        title: '核心功能',
-        items: ['领养系统、出行探险、收获系统、社交互动'],
+        title: '核心技术',
+        items: [
+          '<strong>Three.js 3D 签筒动画</strong>：基于 @react-three/fiber 构建 3D 场景，实现多阶段动画状态机（入场→摇晃→飞出→完成），含发光特效与缓动曲线',
+          '<strong>雪碧图帧动画系统</strong>：支持 8 帧/2 帧/双层 8 帧三种模式切换，CSS @keyframes 驱动横向无限滚动（六图昼夜无缝拼接）',
+          '<strong>Motion 页面转场</strong>：clipPath 圆形展开/收缩实现页面切换，AnimatePresence 管理组件进出场动画',
+          '<strong>Howler.js BGM 单例</strong>：静音 autoplay 绕过浏览器策略 + 淡入淡出 + unlock 事件兜底，跨页面共享实例不中断',
+        ],
       },
       {
-        title: '技术亮点',
+        title: '交互与工程化',
         items: [
-          '<strong>帧动画渲染</strong>：CSS3 + Canvas 帧切换 + 动画状态机管理猫咪行为',
-          '<strong>数据可视化</strong>：ECharts 大屏看板，多维度图表联动 + 实时数据刷新',
-          '<strong>Harness 实践</strong>：验证了范式在中小型项目上的适用性，AI 查表定位接口与组件',
+          '<strong>悬浮猫咪交互系统</strong>：react-rnd 拖拽 + 手势追踪状态切换（平视/仰视/俯视）+ 无操作休眠唤醒 + 边缘吸附 + 多状态机协调',
+          '<strong>复杂状态管理</strong>：领养→祈愿→出行→轮询→收获→反馈完整生命周期，localStorage 降级兜底 + 3s 超时保护',
+          '<strong>跨端适配</strong>：手淘环境判断 + PC 端 iframe 包裹方案，Pegasus 插件集成 DEF 发布体系',
+          '<strong>工程化</strong>：CSS Modules 样式隔离、memo + displayName 性能优化、Vitest 单测、Husky + lint-staged 提交门禁',
         ],
       },
     ],
-    valueTags: ['游戏化营销', '帧动画', 'ECharts', 'Harness 实践'],
+    valueTags: ['Three.js 3D', '雪碧图帧动画', 'Motion 转场', '悬浮交互系统'],
   },
   {
     title: '催收平台 · AI 对话小助手',
