@@ -55,8 +55,8 @@ const projects = [
   },
   {
     title: '招财猫 · 互动祈福 H5 应用',
-    role: '核心开发 & Owner',
-    desc: '基于 Ice.js v3 + React 18 的半游戏化营销 H5 应用，用户可领养虚拟猫咪、许愿祈福、出行探险、收集签文日记。全程在 Harness Engineering 辅助下完成开发。',
+    role: 'AI 辅助开发 & Owner',
+    desc: '基于 Ice.js v3 + React 18 的半游戏化营销 H5 应用，用户可领养虚拟猫咪、许愿祈福、出行探险、收集签文日记。Harness Engineering + AI Agent 辅助开发，大幅提升开发效率。',
     sections: [
       {
         title: '核心技术',
@@ -68,16 +68,16 @@ const projects = [
         ],
       },
       {
-        title: '交互与工程化',
+        title: 'AI 辅助与工程化',
         items: [
+          '<strong>AI 辅助开发</strong>：Harness Engineering + AI Agent 全程辅助，从组件开发到接口联调，显著提升开发效率',
           '<strong>悬浮猫咪交互系统</strong>：react-rnd 拖拽 + 手势追踪状态切换（平视/仰视/俯视）+ 无操作休眠唤醒 + 边缘吸附 + 多状态机协调',
           '<strong>复杂状态管理</strong>：领养→祈愿→出行→轮询→收获→反馈完整生命周期，localStorage 降级兜底 + 3s 超时保护',
           '<strong>跨端适配</strong>：手淘环境判断 + PC 端 iframe 包裹方案，Pegasus 插件集成 DEF 发布体系',
-          '<strong>工程化</strong>：CSS Modules 样式隔离、memo + displayName 性能优化、Vitest 单测、Husky + lint-staged 提交门禁',
         ],
       },
     ],
-    valueTags: ['Three.js 3D', '雪碧图帧动画', 'Motion 转场', '悬浮交互系统'],
+    valueTags: ['AI 辅助开发', 'Three.js 3D', '雪碧图帧动画', 'Harness 实践'],
   },
   {
     title: '催收平台 · AI 对话小助手',
@@ -85,10 +85,12 @@ const projects = [
     desc: '为内部催收平台集成 AI 对话能力，辅助催收人员快速获取信息、生成分析报告。',
     sections: [
       {
-        title: '核心工作',
+        title: '核心技术',
         items: [
-          '实现<strong>流式对话（Streaming）</strong>渲染，保障长文本场景下的实时响应体验',
-          '设计<strong>多类型内容渲染引擎</strong>，支持文本、Markdown、代码块、EChart 图表等混合格式动态解析与渲染',
+          '<strong>流式对话（Streaming）</strong>：基于 fetch Stream API 实现 Server-Sent Events，保障长文本场景下的实时响应体验',
+          '<strong>多类型内容渲染引擎</strong>：支持文本、Markdown、代码块、ECharts 图表、可折叠思考块等混合格式动态解析与渲染',
+          '<strong>TypeWriter 打字机效果</strong>：useTypewriter 自定义 Hook，分段渲染与滚动同步，提升 AI 回答体验',
+          '<strong>AI 反馈机制</strong>：集成评分与反馈系统，支持 thumbs-up/down 评价与评论收集，持续优化模型效果',
         ],
       },
     ],
