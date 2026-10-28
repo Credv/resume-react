@@ -1,6 +1,14 @@
 # 陈鸿 - 前端开发工程师简历
 
-> React + TypeScript + Vite + ECharts 构建的现代化个人简历网站
+> ⚠️ **本仓库已不是简历的主仓库（2026-10-29 起）。**
+>
+> 源码已并入 **[Credv/ai-fxb](https://github.com/Credv/ai-fxb) 的 `apps/resume/`**，作为 npm workspaces monorepo 里的一个应用，与「AI 窗口」控制台共用构建与部署。
+>
+> - 简历线上地址：<https://3ecat.me/>（根路由）
+> - AI 窗口控制台：<https://3ecat.me/ai-fxb/>
+> - 这里的内容停留在迁移前，其中「2024.05—至今」等时间口径已过期，**改简历请去主仓库**，详见 [AGENTS.md](./AGENTS.md)。
+
+> React + TypeScript + Vite + ECharts 构建的现代化个人简历网站（迁移前状态；主仓库已移除 ECharts 看板）
 
 ## 技术栈
 
