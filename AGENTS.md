@@ -88,7 +88,7 @@ resume-react/
     liveUrl?: string   // 主仓库新增：存在时渲染「在线地址」+「代码仓库」链接行
   }
   ```
-- **注意**：主仓库里 `liveUrl` 存在时右上角 GitHub 角标让位给链接行，避免同一仓库出现两个入口；只有 `githubUrl` 的卡片仍显示角标。
+- **注意**：主仓库里 GitHub 入口统一用右上角 `.gh-badge` 角标（2026-10-29 他把 AI 窗口也改成和 Pre-Release 一样）；`liveUrl` 存在时链接行只留「在线地址」一个胶囊，不再放「代码仓库」。
 
 ### Dashboard
 - **职责**：ECharts 数据可视化看板（技能雷达/项目分布/工作Timeline）
